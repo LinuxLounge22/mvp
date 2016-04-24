@@ -28,7 +28,7 @@
                     ?>
 
                 </div>
-                <h4>A fast and open replacement for Windows and OS X</h4>
+                <h4>A fast, easy and open replacement for Windows and OS X</h4>
             </div>
 
             <div class="hero"></div>
@@ -45,9 +45,11 @@
                             <?php
                         } else {
                             ?>
+                    <body>You can name your price, Even Free!</body>
                     <button id="amount-five"        value="5"  class="small-button payment-button target-amount">5</button>
                     <button id="amount-ten"         value="10" class="small-button payment-button target-amount checked">10</button>
                     <button id="amount-twenty-five" value="25" class="small-button payment-button target-amount">25</button>
+                    <button id="amount-Free!" value="0" class="small-button payment-button target-amount">0</button>
                     <div class="column">
                         <span class="pre-amount">$</span>
                         <input type="number" step="0.01" min="0" max="999999.99" id="amount-custom" class="button small-button target-amount" placeholder="Custom">
@@ -130,7 +132,7 @@
                                 </div>
                                 <div class="column alert">
                                     <h3>Videos</h3>
-                                    <p>Watch movies and videos with a minimal interface. The slim, dark frame fades away so you can see more of your movie.</p>
+                                    <p>Watch your videos with an easy to use video player.</p>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +148,7 @@
                                 </div>
                                 <div class="column alert">
                                     <h3>Midori</h3>
-                                    <p>Surf the web with a fast &amp; lightweight web browser. Midori lets you use HTML5 websites and web apps while being lighter on battery life. <a class="read-more" href="http://midori-browser.org">Learn More</a></p>
+                                    <p>Browse the web with a slim and easy to use browser. <a class="read-more" href="http://midori-browser.org">Learn More</a></p>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +222,7 @@
                 </div>
                 <div class="column third">
                     <h2>No Ads. No Spying.</h2>
-                    <p>We don't make advertising deals and we don't collect sensitive personal data. Our only income is directly from our users.</p>
+                    <p>Your information will not be sold to any third parties, We are funded by donations from our users.</p>
                 </div>
                 <div class="column third">
                     <h2>Safe &amp; Secure</h2>
@@ -249,3 +251,6 @@
 <?php
     include $template['footer'];
 ?>
+<div class="column third">
+    <h2>Free Software</h2>
+    <p>Lots of linux programs are free, if not a free alternative is avaliable</p>
